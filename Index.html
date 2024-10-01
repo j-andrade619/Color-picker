@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <Link rel="stylesheet" href="./Style.css"/>
+    <script src="./Script.js"></script>
 </head>
 <body>
-$END$
+  <div class="picker-form-container">
+      <div class="picker-control">
+          <label for="red">Red</label>
+        <input type="range"
+          id="red"
+                 min="0"
+                 max="255"
+          class="picker">
+      </div>
+      <div class="picker control">
+        <label for="green">Green</label>
+        <input type="range"
+        id="green"
+               min="0"
+               max="255"
+        class="picker">
+      </div>
+     <div class="picker control">
+        <label for="blue">Blue</label>
+        <input type="range"
+        id="blue"
+               min="0"
+               max="255"
+        class="picker">
+    </div>
+  </div>
+
+  <div class="color-box-container">
+    <div id="color-box"></div>
+  </div>
 </body>
 </html>
+
